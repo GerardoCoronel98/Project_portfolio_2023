@@ -400,7 +400,7 @@ nav .fas {
 /* -----------CSS for small screens-------------- */
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url(Images/Background-test-phone.jpg);
+        background: var(--bg-color);
     }
 
     .header-text {
@@ -418,7 +418,7 @@ nav .fas {
     }
 
     nav ul {
-        background: #898771;
+        background: var(--contrast-color);
         position: fixed;
         top: 0;
         right: -200px;
